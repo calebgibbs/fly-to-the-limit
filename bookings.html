@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Fly to the Limit | Bookings</title>
+	<meta name="description" content="between 150 and 160 ch"> 
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="icon" href="images/fttl.png">
+</head>
+<body>
+	<div id="bookings-background"> 
+		<img src="images/bookings.jpg">
+	</div>	
+
+	<div id="navigation">
+		<h1><a href="index.html">Fly to the Limit</a></h1>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="index.html#about">About</a></li>
+				<li  class="current-page"><a href="bookings.html">Booking</a></li>
+				<li><a href="photos.html">Photos</a></li>
+			</ul> 
+		</nav>  
+	</div> 
+	<div id="form-container"> 
+		<form action="" method="post" id="booking">
+			<div>
+				<label for="name">Name: </label>
+				<input type="text" name="name" id="name">
+				<span id="name-message" style="color:#ff0000"></span>
+			</div>
+			<div>
+				<label for="email">Email: </label>
+				<input type="email" name="mail" id="email"> 
+				<span id="email-message" style="color:#ff0000"></span>
+			</div>
+			<div>
+				<label for="phonenum">Phone: </label>
+				<input type="phone" name="phone" id="phonenum">
+				<span id="phone-message" style="color:#ff0000"></span>
+			</div> 
+			<div>
+				<label for="date">Journey Date:</label> 
+				<select id="date">
+					<option>-Select date-</option>
+					<optgroup label="April 2016">
+						<option value="apr1" name="date-pick">April 2nd</option>
+						<option value="apr2" name="date-pick">April 9th</option>
+						<option value="apr3" name="date-pick">April 16th</option>
+						<option value="apr4" name="date-pick">April 23rd</option>
+						<option value="apr5" name="date-pick">April 30th</option>
+					<optgroup label="May 2016"> 
+						<option value="may1" name="date-pick">May 7th</option>
+						<option value="may2" name="date-pick">May 14th</option>
+						<option value="may3" name="date-pick">May 21st</option>
+						<option value="may4" name="date-pick">May 28th</option>
+					<optgroup label="June 2016"> 
+						<option value="jun1" name="date-pick">June 4th</option>
+						<option value="jun2" name="date-pick">June 11th</option>
+						<option value="jun3" name="date-pick">June 18th</option>
+						<option value="jun4" name="date-pick">June 25th</option>
+					<optgroup label="July 2016">		
+						<option value="jul1" name="date-pick">July 2nd</option>
+						<option value="jul2" name="date-pick">July 9th</option>
+						<option value="jul3" name="date-pick">July 16th</option>
+						<option value="jul4" name="date-pick">July 23rd</option>
+						<option value="jul3" name="date-pick">July 30th</option> 
+					<optgroup label="August 2016"> 
+						<option value="aug1" name="date-pick">August 6th</option>
+						<option value="aug2" name="date-pick">August 13th</option>
+						<option value="aug3" name="date-pick">August 20th</option>
+						<option value="aug4" name="date-pick">August 27th</option> 
+					<optgroup label="September 2016"> 
+						<option value="sep1" name="date-pick">September 3rd</option>
+						<option value="sep2" name="date-pick">September 10th</option>
+						<option value="sep3" name="date-pick">September 17th</option>
+						<option value="sep4" name="date-pick">September 24th</option>				
+				</select> 
+				<span id="date-message" style="color:#ff0000"></span>
+			</div> 
+			<div id="submit-div">
+				<input id="submit-button" type="submit" value="Submit">
+			</div>
+		</form>
+	<div>	
+<script type="text/javascript" src="js/validation.js"></script>
+</body>
+</html>
